@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Smash Stack Burger Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">SMASH <span>STACK</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 3rem 2rem;">
+    <h1>Get in <span>Touch</span></h1>
+    <p>Questions, catering inquiries, or just want to say hi? We'd love to hear from you.</p>
+  </section>
+
+  <section class="section">
+    <div class="contact-grid">
+
+      <div class="contact-form">
+        <h2 class="section-title" style="text-align: left; font-size: 1.8rem; margin-bottom: 1.5rem;">Send Us a Message</h2>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="(503) 555-0000">
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-info-block">
+          <h3>Visit Us</h3>
+          <p>742 SE Hawthorne Blvd<br>Portland, OR 97214</p>
+          <p>We're on the corner of Hawthorne and SE 12th, right next to the bookstore. Street parking available, or take the 14 bus.</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Call or Email</h3>
+          <p>Phone: (503) 555-2743</p>
+          <p>Email: hello@smashstack.com</p>
+          <p>For catering: catering@smashstack.com</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Hours</h3>
+          <table class="hours-table">
+            <tr>
+              <td>Monday - Thursday</td>
+              <td>11:00 AM - 9:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>11:00 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10:00 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>10:00 AM - 8:00 PM</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Catering</h3>
+          <p>We cater events from 20 to 200 guests. Burger bars, sides, shakes, the works. Contact us at least 2 weeks in advance for availability.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-dark">
+    <div class="section" style="padding-top: 4rem; padding-bottom: 4rem; text-align: center;">
+      <h2 class="section-title">Find Us</h2>
+      <p class="section-subtitle">SE Hawthorne Blvd, Portland, OR</p>
+      <div style="background: var(--warm-gray); border-radius: 8px; padding: 4rem 2rem; max-width: 800px; margin: 0 auto;">
+        <svg viewBox="0 0 600 300" style="max-width: 100%;">
+          <!-- Simplified map illustration -->
+          <rect width="600" height="300" fill="#4a4a4a" rx="8"/>
+          <!-- Streets -->
+          <line x1="0" y1="150" x2="600" y2="150" stroke="#666" stroke-width="20"/>
+          <line x1="300" y1="0" x2="300" y2="300" stroke="#666" stroke-width="16"/>
+          <line x1="0" y1="80" x2="600" y2="80" stroke="#555" stroke-width="8"/>
+          <line x1="0" y1="220" x2="600" y2="220" stroke="#555" stroke-width="8"/>
+          <line x1="150" y1="0" x2="150" y2="300" stroke="#555" stroke-width="8"/>
+          <line x1="450" y1="0" x2="450" y2="300" stroke="#555" stroke-width="8"/>
+          <!-- Street labels -->
+          <text x="520" y="145" font-family="sans-serif" font-size="11" fill="#aaa">SE Hawthorne</text>
+          <text x="305" y="25" font-family="sans-serif" font-size="11" fill="#aaa">SE 12th</text>
+          <!-- Location pin -->
+          <g transform="translate(300, 120)">
+            <path d="M0-30 C-16-30 -25-18 -25-5 C-25 12 0 30 0 30 C0 30 25 12 25-5 C25-18 16-30 0-30 Z" fill="#c0392b"/>
+            <circle cx="0" cy="-8" r="8" fill="#fff"/>
+          </g>
+          <text x="300" y="175" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#f4d03f" font-weight="bold">SMASH STACK</text>
+          <!-- Buildings -->
+          <rect x="200" y="90" width="30" height="30" fill="#555" rx="2"/>
+          <rect x="350" y="85" width="40" height="35" fill="#555" rx="2"/>
+          <rect x="240" y="160" width="25" height="25" fill="#555" rx="2"/>
+          <rect x="340" y="165" width="35" height="25" fill="#555" rx="2"/>
+        </svg>
+        <p style="color: #aaa; margin-top: 1.5rem;">742 SE Hawthorne Blvd at SE 12th Ave</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-red cta-banner">
+    <h2>Skip the Wait</h2>
+    <p>Call ahead for pickup orders: (503) 555-2743</p>
+    <a href="menu.html" class="btn btn-outline">View Menu</a>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="copyright">&copy; 2025 Smash Stack Burger Co. All rights reserved. | 742 SE Hawthorne Blvd, Portland, OR 97214</p>
+  </footer>
+
+</body>
+</html>
