@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f5e6c8"/>
+  <!-- Table -->
+  <rect x="0" y="280" width="600" height="120" fill="#6d4c2a"/>
+  <!-- Multiple burgers spread -->
+  <!-- Burger 1 -->
+  <g transform="translate(100, 200)">
+    <ellipse cx="0" cy="30" rx="70" ry="18" fill="#eee"/>
+    <path d="M-55 20 Q-55 -20 0 -30 Q55 -20 55 20 Q55 25 0 28 Q-55 25 -55 20 Z" fill="#e8a43a"/>
+    <path d="M-50 15 Q-50 5 0 0 Q50 5 50 15" fill="#5c3317"/>
+    <ellipse cx="-15" cy="-10" rx="4" ry="2" fill="#ffeaa7"/>
+    <ellipse cx="15" cy="-18" rx="4" ry="2" fill="#ffeaa7"/>
+  </g>
+  <!-- Burger 2 -->
+  <g transform="translate(300, 180)">
+    <ellipse cx="0" cy="40" rx="80" ry="20" fill="#eee"/>
+    <path d="M-65 30 Q-65 -30 0 -40 Q65 -30 65 30 Q65 35 0 38 Q-65 35 -65 30 Z" fill="#e8a43a"/>
+    <path d="M-60 22 Q-60 10 0 5 Q60 10 60 22" fill="#5c3317"/>
+    <path d="M-62 8 Q-60 -2 0 -5 Q60 -2 62 8" fill="#f4d03f"/>
+    <path d="M-58 -5 Q-56 -15 0 -18 Q56 -15 58 -5" fill="#e74c3c"/>
+    <path d="M-60 -15 Q-55 -25 0 -28 Q55 -25 60 -15" fill="#27ae60"/>
+  </g>
+  <!-- Burger 3 -->
+  <g transform="translate(490, 210)">
+    <ellipse cx="0" cy="30" rx="65" ry="16" fill="#eee"/>
+    <path d="M-50 20 Q-50 -15 0 -25 Q50 -15 50 20 Q50 24 0 27 Q-50 24 -50 20 Z" fill="#e8a43a"/>
+    <path d="M-45 14 Q-45 5 0 0 Q45 5 45 14" fill="#5c3317"/>
+    <ellipse cx="-10" cy="-8" rx="4" ry="2" fill="#ffeaa7"/>
+    <ellipse cx="18" cy="-14" rx="4" ry="2" fill="#ffeaa7"/>
+  </g>
+  <!-- Title -->
+  <text x="300" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#5c3317" font-weight="bold">The Full Spread</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#2c2c2c"/>
+  <!-- Grill grates -->
+  <rect x="100" y="200" width="600" height="200" rx="10" fill="#444"/>
+  <g stroke="#666" stroke-width="4">
+    <line x1="120" y1="230" x2="680" y2="230"/>
+    <line x1="120" y1="260" x2="680" y2="260"/>
+    <line x1="120" y1="290" x2="680" y2="290"/>
+    <line x1="120" y1="320" x2="680" y2="320"/>
+    <line x1="120" y1="350" x2="680" y2="350"/>
+    <line x1="120" y1="380" x2="680" y2="380"/>
+  </g>
+  <!-- Patties on grill -->
+  <ellipse cx="250" cy="280" rx="60" ry="20" fill="#5c3317"/>
+  <ellipse cx="250" cy="278" rx="55" ry="17" fill="#6d3d1f"/>
+  <ellipse cx="450" cy="300" rx="60" ry="20" fill="#5c3317"/>
+  <ellipse cx="450" cy="298" rx="55" ry="17" fill="#6d3d1f"/>
+  <ellipse cx="350" cy="350" rx="60" ry="20" fill="#5c3317"/>
+  <ellipse cx="350" cy="348" rx="55" ry="17" fill="#6d3d1f"/>
+  <ellipse cx="580" cy="270" rx="60" ry="20" fill="#5c3317"/>
+  <ellipse cx="580" cy="268" rx="55" ry="17" fill="#6d3d1f"/>
+  <!-- Flames underneath -->
+  <g opacity="0.6">
+    <path d="M200 410 Q205 380 210 395 Q215 370 220 410" fill="#e74c3c"/>
+    <path d="M300 410 Q305 375 310 390 Q315 365 320 410" fill="#f39c12"/>
+    <path d="M400 410 Q405 380 410 395 Q415 370 420 410" fill="#e74c3c"/>
+    <path d="M500 410 Q505 375 510 392 Q515 368 520 410" fill="#f39c12"/>
+    <path d="M600 410 Q605 382 610 396 Q615 372 620 410" fill="#e74c3c"/>
+  </g>
+  <!-- Smoke/steam -->
+  <g opacity="0.2" fill="none" stroke="#fff" stroke-width="2">
+    <path d="M250 260 Q245 240 255 220 Q248 200 258 180"/>
+    <path d="M450 280 Q445 260 455 240 Q448 220 458 200"/>
+    <path d="M350 330 Q345 310 355 290 Q348 270 358 250"/>
+    <path d="M580 250 Q575 230 585 210 Q578 190 588 170"/>
+  </g>
+  <!-- Text -->
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#f4d03f" font-weight="bold">FLAME GRILLED DAILY</text>
+</svg>

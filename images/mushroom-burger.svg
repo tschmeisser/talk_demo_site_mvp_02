@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#f5e6c8"/>
+  <ellipse cx="300" cy="380" rx="160" ry="25" fill="#d4c4a0"/>
+  <!-- Bottom bun -->
+  <path d="M170 350 Q170 375 300 375 Q430 375 430 350 L430 340 Q430 335 300 335 Q170 335 170 340 Z" fill="#d4882b"/>
+  <!-- Patty -->
+  <path d="M175 335 Q175 318 300 313 Q425 318 425 335 L425 340 Q425 345 300 350 Q175 345 175 340 Z" fill="#5c3317"/>
+  <!-- Mushroom slices -->
+  <ellipse cx="250" cy="310" rx="25" ry="8" fill="#c8b08a" transform="rotate(-10 250 310)"/>
+  <ellipse cx="310" cy="305" rx="25" ry="8" fill="#c8b08a"/>
+  <ellipse cx="370" cy="310" rx="25" ry="8" fill="#c8b08a" transform="rotate(10 370 310)"/>
+  <ellipse cx="280" cy="300" rx="22" ry="7" fill="#b89b6f" transform="rotate(5 280 300)"/>
+  <ellipse cx="340" cy="298" rx="22" ry="7" fill="#b89b6f" transform="rotate(-5 340 298)"/>
+  <!-- Swiss cheese -->
+  <path d="M175 290 Q178 278 300 273 Q422 278 425 290 Q425 298 300 303 Q175 298 175 290 Z" fill="#f5e6a3"/>
+  <circle cx="240" cy="288" r="5" fill="#e8d88a"/>
+  <circle cx="330" cy="285" r="7" fill="#e8d88a"/>
+  <circle cx="380" cy="290" r="4" fill="#e8d88a"/>
+  <!-- Top bun -->
+  <path d="M180 275 Q180 195 300 185 Q420 195 420 275 Q420 283 300 288 Q180 283 180 275 Z" fill="#e8a43a"/>
+  <ellipse cx="270" cy="230" rx="7" ry="4" fill="#ffeaa7" transform="rotate(-12 270 230)"/>
+  <ellipse cx="330" cy="218" rx="7" ry="4" fill="#ffeaa7" transform="rotate(8 330 218)"/>
+  <ellipse cx="365" cy="238" rx="7" ry="4" fill="#ffeaa7" transform="rotate(20 365 238)"/>
+  <text x="300" y="430" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#5c3317" font-weight="bold">Wild Mushroom Swiss</text>
+</svg>

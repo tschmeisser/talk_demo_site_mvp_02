@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#2c2c2c"/>
+  <!-- Wooden surface -->
+  <rect x="50" y="200" width="500" height="180" fill="#5a3e2b" rx="5"/>
+  <!-- Paper wrapper -->
+  <rect x="130" y="180" width="340" height="160" fill="#f5e6c8" transform="rotate(-3 300 260)"/>
+  <!-- Smash burger - thin and wide -->
+  <ellipse cx="300" cy="280" rx="120" ry="15" fill="#d4882b"/>
+  <ellipse cx="300" cy="275" rx="130" ry="12" fill="#5c3317"/>
+  <ellipse cx="300" cy="272" rx="125" ry="10" fill="#6d3d1f"/>
+  <!-- Crispy edges -->
+  <path d="M170 275 Q175 268 185 273 Q195 265 205 272" stroke="#4a2810" stroke-width="2" fill="none"/>
+  <path d="M395 273 Q405 265 415 272 Q425 267 430 275" stroke="#4a2810" stroke-width="2" fill="none"/>
+  <!-- Melted cheese -->
+  <ellipse cx="300" cy="268" rx="110" ry="8" fill="#f4d03f" opacity="0.8"/>
+  <!-- Onions on top -->
+  <g fill="none" stroke="#d4a76a" stroke-width="2" opacity="0.6">
+    <path d="M260 262 Q270 255 280 262"/>
+    <path d="M290 258 Q300 252 310 258"/>
+    <path d="M315 263 Q325 256 335 263"/>
+  </g>
+  <!-- Top bun -->
+  <path d="M210 255 Q210 210 300 200 Q390 210 390 255 Q390 260 300 265 Q210 260 210 255 Z" fill="#e8a43a"/>
+  <ellipse cx="280" cy="225" rx="5" ry="3" fill="#ffeaa7"/>
+  <ellipse cx="310" cy="218" rx="5" ry="3" fill="#ffeaa7"/>
+  <ellipse cx="340" cy="228" rx="5" ry="3" fill="#ffeaa7"/>
+  <!-- Title -->
+  <text x="300" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#f4d03f" font-weight="bold">The Signature Smash</text>
+  <text x="300" y="90" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#999">Thin, crispy, perfection</text>
+</svg>

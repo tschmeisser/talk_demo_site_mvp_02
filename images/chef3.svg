@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#c8dbbe"/>
+  <!-- Body -->
+  <rect x="105" y="190" width="90" height="110" rx="5" fill="#fff"/>
+  <!-- Chef coat double breast -->
+  <line x1="140" y1="195" x2="140" y2="300" stroke="#ddd" stroke-width="1"/>
+  <line x1="160" y1="195" x2="160" y2="300" stroke="#ddd" stroke-width="1"/>
+  <!-- Neck -->
+  <rect x="135" y="155" width="30" height="40" fill="#f0c8a0"/>
+  <!-- Head -->
+  <ellipse cx="150" cy="140" rx="40" ry="45" fill="#f0c8a0"/>
+  <!-- Glasses -->
+  <circle cx="135" cy="132" r="12" stroke="#333" stroke-width="2" fill="none"/>
+  <circle cx="165" cy="132" r="12" stroke="#333" stroke-width="2" fill="none"/>
+  <line x1="147" y1="132" x2="153" y2="132" stroke="#333" stroke-width="2"/>
+  <!-- Eyes behind glasses -->
+  <circle cx="135" cy="133" r="3" fill="#333"/>
+  <circle cx="165" cy="133" r="3" fill="#333"/>
+  <!-- Smile -->
+  <path d="M138 155 Q150 163 162 155" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Chef hat -->
+  <rect x="115" y="92" width="70" height="18" fill="#fff"/>
+  <ellipse cx="150" cy="92" rx="42" ry="32" fill="#fff"/>
+  <ellipse cx="132" cy="78" rx="18" ry="20" fill="#fff"/>
+  <ellipse cx="150" cy="72" rx="16" ry="23" fill="#fff"/>
+  <ellipse cx="168" cy="78" rx="18" ry="20" fill="#fff"/>
+</svg>

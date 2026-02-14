@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#3d2b1f"/>
+  <!-- Back wall -->
+  <rect x="0" y="0" width="800" height="320" fill="#5a3e2b"/>
+  <!-- Exposed brick pattern -->
+  <g fill="#4a3020" opacity="0.4">
+    <rect x="10" y="10" width="60" height="25" rx="2"/>
+    <rect x="80" y="10" width="60" height="25" rx="2"/>
+    <rect x="150" y="10" width="60" height="25" rx="2"/>
+    <rect x="45" y="45" width="60" height="25" rx="2"/>
+    <rect x="115" y="45" width="60" height="25" rx="2"/>
+    <rect x="185" y="45" width="60" height="25" rx="2"/>
+  </g>
+  <!-- Pendant lights -->
+  <line x1="200" y1="0" x2="200" y2="80" stroke="#333" stroke-width="2"/>
+  <path d="M170 80 Q170 110 200 115 Q230 110 230 80 Z" fill="#f4d03f" opacity="0.9"/>
+  <circle cx="200" cy="95" r="5" fill="#fff"/>
+  <ellipse cx="200" cy="180" rx="80" ry="80" fill="#f4d03f" opacity="0.05"/>
+  <line x1="400" y1="0" x2="400" y2="80" stroke="#333" stroke-width="2"/>
+  <path d="M370 80 Q370 110 400 115 Q430 110 430 80 Z" fill="#f4d03f" opacity="0.9"/>
+  <circle cx="400" cy="95" r="5" fill="#fff"/>
+  <line x1="600" y1="0" x2="600" y2="80" stroke="#333" stroke-width="2"/>
+  <path d="M570 80 Q570 110 600 115 Q630 110 630 80 Z" fill="#f4d03f" opacity="0.9"/>
+  <circle cx="600" cy="95" r="5" fill="#fff"/>
+  <!-- Counter/Bar -->
+  <rect x="0" y="300" width="800" height="30" fill="#6d4c2a"/>
+  <rect x="0" y="295" width="800" height="8" fill="#8b6914"/>
+  <!-- Stools -->
+  <circle cx="150" cy="380" r="25" fill="#c0392b"/>
+  <rect x="147" y="405" width="6" height="80" fill="#555"/>
+  <circle cx="300" cy="380" r="25" fill="#c0392b"/>
+  <rect x="297" y="405" width="6" height="80" fill="#555"/>
+  <circle cx="450" cy="380" r="25" fill="#c0392b"/>
+  <rect x="447" y="405" width="6" height="80" fill="#555"/>
+  <circle cx="600" cy="380" r="25" fill="#c0392b"/>
+  <rect x="597" y="405" width="6" height="80" fill="#555"/>
+  <!-- Floor -->
+  <rect x="0" y="480" width="800" height="20" fill="#2a1f14"/>
+  <!-- Menu board on wall -->
+  <rect x="500" y="130" width="200" height="130" rx="5" fill="#1a1a1a"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f4d03f">TODAY'S SPECIAL</text>
+  <line x1="530" y1="180" x2="670" y2="180" stroke="#f4d03f" stroke-width="1" opacity="0.5"/>
+  <text x="600" y="210" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#fff">Double Smash</text>
+  <text x="600" y="235" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#fff">w/ Loaded Fries</text>
+  <text x="600" y="255" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#c0392b">$14.99</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#2c2c2c"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="440" rx="220" ry="40" fill="#555"/>
+  <ellipse cx="400" cy="435" rx="210" ry="35" fill="#666"/>
+  <!-- Bottom bun -->
+  <path d="M240 400 Q240 430 400 430 Q560 430 560 400 L560 390 Q560 380 400 380 Q240 380 240 390 Z" fill="#d4882b"/>
+  <path d="M245 395 Q245 380 400 380 Q555 380 555 395" fill="#e8a43a" stroke="none"/>
+  <!-- Patty -->
+  <path d="M250 380 Q250 365 400 360 Q550 365 550 380 L550 385 Q550 390 400 395 Q250 390 250 385 Z" fill="#5c3317"/>
+  <path d="M255 378 Q255 365 400 362 Q545 365 545 378" fill="#6d3d1f"/>
+  <!-- Cheese -->
+  <path d="M235 360 Q240 350 400 345 Q560 350 565 360 L570 365 Q560 370 400 375 Q240 370 230 365 Z" fill="#f4d03f"/>
+  <path d="M230 365 L220 380" stroke="#f4d03f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 365 L580 378" stroke="#f4d03f" stroke-width="8" stroke-linecap="round"/>
+  <!-- Lettuce -->
+  <path d="M240 350 Q260 335 300 345 Q340 330 380 345 Q420 330 460 345 Q500 330 540 345 Q560 340 565 350 Q560 355 400 360 Q240 355 240 350 Z" fill="#27ae60"/>
+  <!-- Tomato -->
+  <path d="M260 345 Q260 330 400 325 Q540 330 540 345 Q540 350 400 355 Q260 350 260 345 Z" fill="#e74c3c"/>
+  <path d="M265 342 Q265 332 400 328 Q535 332 535 342" fill="#c0392b"/>
+  <!-- Top bun -->
+  <path d="M250 330 Q250 240 400 230 Q550 240 550 330 Q550 340 400 345 Q250 340 250 330 Z" fill="#d4882b"/>
+  <path d="M260 325 Q260 250 400 240 Q540 250 540 325" fill="#e8a43a"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="340" cy="270" rx="8" ry="5" fill="#ffeaa7" transform="rotate(-15 340 270)"/>
+  <ellipse cx="400" cy="255" rx="8" ry="5" fill="#ffeaa7" transform="rotate(10 400 255)"/>
+  <ellipse cx="460" cy="268" rx="8" ry="5" fill="#ffeaa7" transform="rotate(20 460 268)"/>
+  <ellipse cx="370" cy="290" rx="8" ry="5" fill="#ffeaa7" transform="rotate(-5 370 290)"/>
+  <ellipse cx="440" cy="285" rx="8" ry="5" fill="#ffeaa7" transform="rotate(15 440 285)"/>
+  <ellipse cx="490" cy="295" rx="8" ry="5" fill="#ffeaa7" transform="rotate(-10 490 295)"/>
+  <ellipse cx="320" cy="295" rx="8" ry="5" fill="#ffeaa7" transform="rotate(25 320 295)"/>
+  <!-- Steam lines -->
+  <path d="M350 220 Q345 195 355 175" stroke="#888" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M400 210 Q395 185 405 160" stroke="#888" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M450 218 Q445 193 455 170" stroke="#888" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4"/>
+</svg>

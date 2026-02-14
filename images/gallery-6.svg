@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#1e1e1e"/>
+  <!-- Basket -->
+  <path d="M120 200 L150 380 L450 380 L480 200 Z" fill="#8b6914"/>
+  <path d="M120 200 L480 200" stroke="#a07830" stroke-width="4"/>
+  <!-- Basket weave lines -->
+  <g stroke="#6d4c2a" stroke-width="2" opacity="0.5">
+    <line x1="180" y1="210" x2="200" y2="375"/>
+    <line x1="240" y1="205" x2="250" y2="375"/>
+    <line x1="300" y1="202" x2="300" y2="378"/>
+    <line x1="360" y1="205" x2="350" y2="375"/>
+    <line x1="420" y1="210" x2="400" y2="375"/>
+  </g>
+  <!-- Paper lining -->
+  <path d="M140 210 Q160 190 180 210 Q200 190 220 210 Q240 190 260 210 Q280 190 300 210 Q320 190 340 210 Q360 190 380 210 Q400 190 420 210 Q440 190 460 210" fill="none" stroke="#f5e6c8" stroke-width="2"/>
+  <path d="M140 210 L160 370 L440 370 L460 210 Q440 190 420 210 Q400 190 380 210 Q360 190 340 210 Q320 190 300 210 Q280 190 260 210 Q240 190 220 210 Q200 190 180 210 Q160 190 140 210 Z" fill="#f5e6c8" opacity="0.3"/>
+  <!-- Loaded fries -->
+  <g fill="#f4d03f">
+    <rect x="180" y="160" width="12" height="70" rx="3" transform="rotate(-12 186 195)"/>
+    <rect x="210" y="145" width="12" height="80" rx="3" transform="rotate(5 216 185)"/>
+    <rect x="240" y="155" width="12" height="70" rx="3" transform="rotate(-3 246 190)"/>
+    <rect x="270" y="140" width="12" height="85" rx="3" transform="rotate(8 276 182)"/>
+    <rect x="300" y="150" width="12" height="75" rx="3" transform="rotate(-6 306 187)"/>
+    <rect x="330" y="142" width="12" height="80" rx="3" transform="rotate(4 336 182)"/>
+    <rect x="360" y="155" width="12" height="70" rx="3" transform="rotate(-8 366 190)"/>
+    <rect x="390" y="148" width="12" height="75" rx="3" transform="rotate(10 396 185)"/>
+  </g>
+  <!-- Cheese drizzle -->
+  <path d="M190 180 Q230 195 270 178 Q310 195 350 180 Q390 195 420 182" stroke="#f4d03f" stroke-width="6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Bacon bits -->
+  <g fill="#8b2500">
+    <rect x="220" y="175" width="15" height="5" rx="2" transform="rotate(20 227 177)"/>
+    <rect x="290" y="170" width="15" height="5" rx="2" transform="rotate(-15 297 172)"/>
+    <rect x="350" y="178" width="15" height="5" rx="2" transform="rotate(30 357 180)"/>
+  </g>
+  <!-- Title -->
+  <text x="300" y="80" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#f4d03f" font-weight="bold">Loaded Basket Fries</text>
+</svg>

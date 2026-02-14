@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#3a2a1a"/>
+  <!-- Wooden table -->
+  <rect x="0" y="250" width="600" height="150" fill="#6d4c2a"/>
+  <line x1="0" y1="250" x2="600" y2="250" stroke="#8b6914" stroke-width="3"/>
+  <!-- Plate -->
+  <ellipse cx="300" cy="280" rx="150" ry="40" fill="#eee"/>
+  <ellipse cx="300" cy="278" rx="140" ry="35" fill="#fff"/>
+  <!-- Burger on plate -->
+  <path d="M230 270 Q230 260 300 255 Q370 260 370 270 L370 275 Q370 280 300 285 Q230 280 230 275 Z" fill="#d4882b"/>
+  <path d="M235 260 Q235 250 300 245 Q365 250 365 260" fill="#5c3317"/>
+  <path d="M232 250 Q232 210 300 200 Q368 210 368 250 Q368 255 300 258 Q232 255 232 250 Z" fill="#e8a43a"/>
+  <ellipse cx="275" cy="225" rx="5" ry="3" fill="#ffeaa7"/>
+  <ellipse cx="315" cy="218" rx="5" ry="3" fill="#ffeaa7"/>
+  <ellipse cx="340" cy="230" rx="5" ry="3" fill="#ffeaa7"/>
+  <!-- Fries on side -->
+  <rect x="380" y="250" width="10" height="40" rx="2" fill="#f4d03f" transform="rotate(-15 385 270)"/>
+  <rect x="395" y="245" width="10" height="45" rx="2" fill="#e8c430" transform="rotate(5 400 267)"/>
+  <rect x="410" y="248" width="10" height="40" rx="2" fill="#f4d03f" transform="rotate(-8 415 268)"/>
+  <rect x="420" y="252" width="10" height="35" rx="2" fill="#e8c430" transform="rotate(12 425 269)"/>
+  <!-- Beer glass -->
+  <rect x="80" y="180" width="50" height="90" rx="3" fill="#f4d03f" opacity="0.5"/>
+  <rect x="82" y="182" width="46" height="60" fill="#f4d03f" opacity="0.3"/>
+  <ellipse cx="105" cy="180" rx="27" ry="6" fill="#fff" opacity="0.7"/>
+</svg>

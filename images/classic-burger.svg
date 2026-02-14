@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#f5e6c8"/>
+  <!-- Shadow -->
+  <ellipse cx="300" cy="370" rx="160" ry="25" fill="#d4c4a0"/>
+  <!-- Bottom bun -->
+  <path d="M170 340 Q170 365 300 365 Q430 365 430 340 L430 330 Q430 325 300 325 Q170 325 170 330 Z" fill="#d4882b"/>
+  <!-- Patty -->
+  <path d="M175 325 Q175 310 300 305 Q425 310 425 325 L425 330 Q425 335 300 340 Q175 335 175 330 Z" fill="#5c3317"/>
+  <!-- Top bun -->
+  <path d="M180 305 Q180 225 300 215 Q420 225 420 305 Q420 310 300 315 Q180 310 180 305 Z" fill="#e8a43a"/>
+  <!-- Seeds -->
+  <ellipse cx="260" cy="255" rx="7" ry="4" fill="#ffeaa7" transform="rotate(-10 260 255)"/>
+  <ellipse cx="310" cy="242" rx="7" ry="4" fill="#ffeaa7" transform="rotate(15 310 242)"/>
+  <ellipse cx="355" cy="258" rx="7" ry="4" fill="#ffeaa7" transform="rotate(-5 355 258)"/>
+  <!-- Label -->
+  <text x="300" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#5c3317" font-weight="bold">The Classic</text>
+</svg>

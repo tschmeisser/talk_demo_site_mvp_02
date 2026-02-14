@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#f5e6c8"/>
+  <ellipse cx="300" cy="380" rx="160" ry="25" fill="#d4c4a0"/>
+  <!-- Bottom bun -->
+  <path d="M170 350 Q170 375 300 375 Q430 375 430 350 L430 340 Q430 335 300 335 Q170 335 170 340 Z" fill="#d4882b"/>
+  <!-- Patty -->
+  <path d="M175 335 Q175 320 300 315 Q425 320 425 335 L425 340 Q425 345 300 350 Q175 345 175 340 Z" fill="#5c3317"/>
+  <!-- Bacon strips -->
+  <path d="M180 315 Q210 305 240 315 Q270 325 300 315 Q330 305 360 315 Q390 325 420 315" stroke="#8b2500" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M185 305 Q215 295 245 305 Q275 315 305 305 Q335 295 365 305 Q395 315 415 305" stroke="#a0522d" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Cheese -->
+  <path d="M170 295 Q175 285 300 280 Q425 285 430 295 L435 300 Q425 305 300 310 Q175 305 165 300 Z" fill="#f4d03f"/>
+  <path d="M165 300 L155 315" stroke="#f4d03f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M435 300 L445 313" stroke="#f4d03f" stroke-width="7" stroke-linecap="round"/>
+  <!-- Top bun -->
+  <path d="M180 280 Q180 200 300 190 Q420 200 420 280 Q420 290 300 295 Q180 290 180 280 Z" fill="#e8a43a"/>
+  <!-- Seeds -->
+  <ellipse cx="265" cy="235" rx="7" ry="4" fill="#ffeaa7" transform="rotate(-10 265 235)"/>
+  <ellipse cx="315" cy="222" rx="7" ry="4" fill="#ffeaa7" transform="rotate(15 315 222)"/>
+  <ellipse cx="360" cy="240" rx="7" ry="4" fill="#ffeaa7" transform="rotate(5 360 240)"/>
+  <text x="300" y="430" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#5c3317" font-weight="bold">Bacon Stack</text>
+</svg>

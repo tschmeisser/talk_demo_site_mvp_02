@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#f5e6c8"/>
+  <!-- Glass -->
+  <path d="M230 160 L250 380 Q250 400 300 400 Q350 400 350 380 L370 160 Z" fill="#fadbd8" opacity="0.7"/>
+  <path d="M232 165 L252 378 Q252 395 300 395 Q348 395 348 378 L368 165 Z" fill="#f1948a"/>
+  <!-- Whipped cream -->
+  <ellipse cx="300" cy="160" rx="75" ry="25" fill="#fff"/>
+  <ellipse cx="280" cy="150" rx="30" ry="18" fill="#fff"/>
+  <ellipse cx="320" cy="148" rx="30" ry="18" fill="#fff"/>
+  <ellipse cx="300" cy="140" rx="22" ry="15" fill="#fff"/>
+  <!-- Cherry -->
+  <circle cx="300" cy="122" r="12" fill="#c0392b"/>
+  <path d="M300 110 Q310 95 305 85" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <!-- Straw -->
+  <rect x="325" y="80" width="8" height="200" rx="4" fill="#e74c3c" transform="rotate(8 329 180)"/>
+  <text x="300" y="435" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#5c3317" font-weight="bold">Strawberry Shake</text>
+</svg>
